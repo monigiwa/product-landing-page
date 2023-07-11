@@ -200,11 +200,12 @@ input:invalid {
   border-color: red;
 }
 button {
+  display: block;
+  margin: 10px auto 0 auto;
   border: 1px solid #599a68;
   border-radius: 5px;
   width: 150px;
   height: 34px;
-  margin-top: 10px;
   background: none;
   letter-spacing: 2px;
   font-weight: 500;
@@ -213,7 +214,7 @@ button {
 }
 button:hover {
   cursor: pointer;
-  filter: brightness(200%);
+  filter: brightness(100%);
   color: black;
 }
 button:focus {
